@@ -1023,6 +1023,20 @@ body {
     .container {
         padding: 0 var(--spacing-sm);
     }
+    
+    .about-image {
+        float: none;
+        display: block;
+        margin: var(--spacing-md) auto;
+        width: 300px;
+        height: 300px;
+    }
+    
+    .about-text {
+        padding-right: 0;
+        margin-right: 0;
+        text-align: justify;
+    }
 }
 
 /* Petit mobile */
@@ -1042,6 +1056,20 @@ body {
     
     .about-text .lead {
         font-size: 1.1rem;
+    }
+    
+    .about-image {
+        float: none;
+        display: block;
+        margin: var(--spacing-md) auto;
+        width: 280px;
+        height: 280px;
+    }
+    
+    .about-text {
+        padding-right: 0;
+        margin-right: 0;
+        text-align: justify;
     }
 }
 
