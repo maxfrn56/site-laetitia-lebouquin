@@ -313,8 +313,8 @@ body {
     border-radius: 10px;
     float: right;
     shape-outside: margin-box;
-    margin-left: var(--spacing-md);
-    margin-right: 20px;
+    margin-left: calc(var(--spacing-md) + 10px);
+    margin-right: 10px;
     margin-bottom: var(--spacing-sm);
     margin-top: calc(var(--spacing-lg) + var(--spacing-md) - 80px);
     opacity: 0.85;
