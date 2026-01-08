@@ -307,13 +307,14 @@ body {
 }
 
 .about-image {
-    width: 380px;
-    height: 380px;
+    width: 340px;
+    height: 340px;
     object-fit: cover;
     border-radius: 10px;
     float: right;
     shape-outside: margin-box;
     margin-left: var(--spacing-md);
+    margin-right: 10px;
     margin-bottom: var(--spacing-sm);
     margin-top: calc(var(--spacing-lg) + var(--spacing-md) - 80px);
     opacity: 0.85;
@@ -971,6 +972,14 @@ body {
     .hero {
         min-height: 80vh;
         margin-top: 60px;
+    }
+    
+    .hero-decoration-image {
+        display: none;
+    }
+    
+    .hero-image {
+        max-width: 200px;
     }
     
     .hero-title {
