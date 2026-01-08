@@ -314,7 +314,7 @@ body {
     float: right;
     shape-outside: margin-box;
     margin-left: var(--spacing-md);
-    margin-right: 10px;
+    margin-right: 20px;
     margin-bottom: var(--spacing-sm);
     margin-top: calc(var(--spacing-lg) + var(--spacing-md) - 80px);
     opacity: 0.85;
