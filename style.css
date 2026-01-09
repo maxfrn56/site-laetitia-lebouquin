@@ -298,7 +298,7 @@ body {
    SECTION À PROPOS
    ============================================ */
 .about {
-    background-color: var(--color-white);
+    background-color: var(--color-beige);
 }
 
 .about-content {
@@ -306,20 +306,44 @@ body {
     margin: 0 auto;
 }
 
+.about-image-wrapper {
+    float: right;
+    position: relative;
+    margin-left: calc(var(--spacing-md) + 10px);
+    margin-right: 10px;
+    margin-bottom: var(--spacing-sm);
+    margin-top: calc(var(--spacing-lg) + var(--spacing-md) - 80px);
+}
+
 .about-image {
     width: 340px;
     height: 340px;
     object-fit: cover;
     border-radius: 10px;
-    float: right;
+    display: block;
     shape-outside: margin-box;
-    margin-left: calc(var(--spacing-md) + 10px);
-    margin-right: 10px;
-    margin-bottom: var(--spacing-sm);
-    margin-top: calc(var(--spacing-lg) + var(--spacing-md) - 80px);
     opacity: 0.85;
     border: 4px solid var(--color-sage-light);
     box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+.about-portrait-frame {
+    position: absolute;
+    top: -20px;
+    right: -20px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 3px solid var(--color-white);
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+    z-index: 2;
+}
+
+.about-portrait {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 .about-text {
@@ -437,18 +461,22 @@ body {
 }
 
 .problem-item {
-    background-color: var(--color-white);
+    background-color: var(--color-beige);
     padding: var(--spacing-sm) var(--spacing-md);
     border-radius: 50px;
     color: var(--color-text);
     font-weight: 400;
     transition: var(--transition);
     border: 2px solid transparent;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .problem-item:hover {
     border-color: var(--color-sage);
-    background-color: var(--color-sage-light);
+    background-color: var(--color-terracotta);
     color: var(--color-white);
     transform: scale(1.05);
 }
@@ -457,7 +485,7 @@ body {
    SECTION MASSAGES
    ============================================ */
 .massages {
-    background-color: var(--color-white);
+    background-color: var(--color-beige);
 }
 
 .massages-grid {
@@ -618,7 +646,7 @@ body {
    SECTION CONTACT
    ============================================ */
 .contact {
-    background-color: var(--color-white);
+    background-color: var(--color-beige);
 }
 
 .contact-content {
