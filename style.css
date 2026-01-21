@@ -162,7 +162,8 @@ body {
     justify-content: center;
     background: linear-gradient(135deg, var(--color-sage-light) 0%, var(--color-beige) 100%);
     padding: calc(70px + var(--spacing-sm)) var(--spacing-md) var(--spacing-xl);
-    margin-top: 70px;
+    margin-top: 0;
+    padding-top: calc(70px + var(--spacing-sm));
     text-align: center;
     position: relative;
     overflow: hidden;
