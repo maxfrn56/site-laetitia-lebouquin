@@ -8,7 +8,12 @@ const resend = new Resend(process.env.RESEND_API_KEY);
 
 // Middleware pour parser le JSON
 app.use(express.json());
-app.use(express.static('.'));
+
+// Servir les fichiers statiques (HTML, CSS, images, etc.)
+app.use(express.static(__dirname));
+
+// Route spécifique pour les images
+app.use('/images', express.static(path.join(__dirname, 'images')));
 
 // Route pour servir le site statique
 app.get('/', (req, res) => {
