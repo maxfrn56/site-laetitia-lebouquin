@@ -88,13 +88,13 @@ body {
     color: var(--color-sage-dark);
     display: flex;
     align-items: center;
-    gap: var(--spacing-sm);
+    gap: var(--spacing-md);
 }
 
 .nav-logo {
-    height: 40px;
+    height: 60px;
     width: auto;
-    max-width: 50px;
+    max-width: 80px;
     object-fit: contain;
     display: block;
     transition: var(--transition);
