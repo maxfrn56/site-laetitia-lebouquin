@@ -86,6 +86,25 @@ body {
     font-size: 1.5rem;
     font-weight: 600;
     color: var(--color-sage-dark);
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-sm);
+}
+
+.nav-logo {
+    height: 40px;
+    width: auto;
+    object-fit: contain;
+    transition: var(--transition);
+}
+
+.navbar:not(.scrolled) .nav-brand {
+    color: var(--color-white);
+    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+.navbar:not(.scrolled) .nav-logo {
+    filter: brightness(0) invert(1);
 }
 
 .nav-menu {
