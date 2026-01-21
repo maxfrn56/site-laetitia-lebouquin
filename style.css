@@ -189,7 +189,7 @@ body {
 }
 
 .hero-image {
-    max-width: 380px;
+    max-width: 500px;
     height: auto;
     margin: 0 auto var(--spacing-sm) auto;
     margin-top: -40px;
@@ -1020,7 +1020,7 @@ body {
     }
     
     .hero-image {
-        max-width: 200px;
+        max-width: 260px;
     }
     
     .hero-title {
