@@ -1025,8 +1025,12 @@ body {
         display: none;
     }
     
+    .nav-brand span {
+        display: none;
+    }
+    
     .hero-image {
-        max-width: 260px;
+        max-width: 400px;
     }
     
     .hero-title {
