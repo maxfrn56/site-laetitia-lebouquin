@@ -796,6 +796,22 @@ body {
     font-size: 0.9rem;
 }
 
+.footer-credit {
+    margin-top: var(--spacing-xs);
+    font-size: 0.85rem;
+    opacity: 0.8;
+}
+
+.footer-credit a {
+    color: var(--color-white);
+    text-decoration: underline;
+    transition: var(--transition);
+}
+
+.footer-credit a:hover {
+    opacity: 0.7;
+}
+
 /* ============================================
    ANIMATIONS - Système d'animations douces et apaisantes
    ============================================ */
